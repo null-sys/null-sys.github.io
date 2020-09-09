@@ -5,7 +5,7 @@ date:       2020-09-08
 author:     Gaurav
 summary:    Carte Noire is a dark blog theme for Jekyll focusing on a clear reading experience.
 categories: jekyll
-thumbnail:  heart
+thumbnail:  cogs
 tags:
  - welcome
  - to
