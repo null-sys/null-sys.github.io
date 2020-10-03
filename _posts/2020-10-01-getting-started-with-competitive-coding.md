@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with Competitive Programming >CP101
-date: 2020-09-10
+date: 2020-10-01
 author: Gaurav
 summary: Begginers guide to the world of COmpetitive Programming.
 categories: CP
