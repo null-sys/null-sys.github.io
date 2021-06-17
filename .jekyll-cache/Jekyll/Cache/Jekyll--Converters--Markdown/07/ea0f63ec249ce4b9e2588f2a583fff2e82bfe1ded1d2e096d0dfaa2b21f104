@@ -1,0 +1,73 @@
+I"m<h2 id="what-is-competitive-programming-cp">What is Competitive Programming (CP)?</h2>
+
+<p>It’s very much similar to an eSport, infact it is one. In Competitive Programming, programmers participate and try to solve a bunch of problems, score points to chart top on Scoreboard. Organizers put forward the rewards as money, internship and job opportunity. Along with these, there are cool swags like t-shirts, stickers etc.</p>
+
+<h2 id="whats-in-it-for-you">What’s in it for You?</h2>
+
+<p>Along with the above mentioned incentives such as money and swag, there is lot of pride involved. A red level in codeforces is a good way to say that you have a good grasp on Data structures and Algorithms. It sets off a good competitive culture in students. But it doesn’t end with students, e.g <a href="https://petr-mitrichev.blogspot.com/">Petr</a>.</p>
+
+<h2 id="structure-of-a-cp-problem">Structure of a CP Problem</h2>
+
+<p>Whenever you come across a CP problem, more or less you will see these problems in this format only. Here is a <a href="https://cses.fi/problemset/task/1068">link</a> to problem from <a href="https://cses.fi/problemset/">CSES problem set</a>.
+Structure of a CP problem :</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Time Limit</code>: Time within which your code should finish executing for one execution.</li>
+  <li><code class="language-plaintext highlighter-rouge">Memory Limit</code>: Maximum limit for memory to used by your code for one execution.</li>
+  <li><code class="language-plaintext highlighter-rouge">Problem Description</code>: Explanation of the problem and expected output.</li>
+  <li><code class="language-plaintext highlighter-rouge">Input</code>: Format of input w.r.t. problem explanation.</li>
+  <li><code class="language-plaintext highlighter-rouge">Output</code>: Format of output, this will be used for evaluation. Beginners have problem with reading input and producing output.</li>
+  <li><code class="language-plaintext highlighter-rouge">Constraints</code>: In world of CP, everything has a limit. In constraints, limit to the input data is defined. By this way, you need not to worry about any input other than given constraints.</li>
+  <li><code class="language-plaintext highlighter-rouge">Examples</code>: This is a cherry on top. It helps programmer to effectively understand the problem description, input and output.</li>
+</ul>
+
+<h2 id="anatomy-of-cp-problem-structure">Anatomy of CP Problem Structure:</h2>
+
+<p>In CP, Time limit is used to test the method of solving the problem. In other words, it checks time complexity of algorithm used. Memory limit is used to ensure that memory is not vaguely used. Mostly your problems will be related to Wrong answer and time limit exceeded.</p>
+
+<p>Input is used to declare, how your input will be given to your programme. Output tells you about the way, you should output to get an evaluation. If you deviate in output format, it will result in wrong answer( note for absolute beginners).</p>
+
+<p>Problem Description, Constraints and Examples are used to understand the problem. By this, you can deduce nature of a programming model, algorithm to use.
+Constraints and time limit gives a good indication of required time complexity of algorithm.</p>
+
+<h2 id="prerequisite-for-cp">Prerequisite for CP</h2>
+
+<p>A good grasp of a programming language is always preferred. But this should not come in the way of getting started.
+In any programming language, basic knowledge of input, output, variable, array, string, conditional statements and loops is a good point to start.</p>
+
+<p>If you already know this, try to expand further with time complexity , function and STL.</p>
+
+<h2 id="starting-point">Starting Point</h2>
+
+<p>Recently I came across <a href="https://cses.fi/problemset/">CSES problem set</a>, which a good way to get started with Competitive programming.
+To make it simple I will suggest only 3 website to begin with. Don’t enter into competitive world with contest at first. Solve some practice problems in hand.</p>
+
+<ol>
+  <li><a href="https://cses.fi/problemset/">CSES problem set</a> : A wide range of problems with defined structure, also all test cases are visible with your output and correct output. You can find solutions online. You can also help me in building this <a href="https://github.com/null-sys/cp-cses-solution-set">CSES solutin set</a>.</li>
+  <li><a href="https://www.codechef.com/contests">CodeChef Long</a> : A contest with <code class="language-plaintext highlighter-rouge">month challenge year</code> format named contest. A 10 day long contest starting with Friday of the first week of each month. With 10 day window, beginners find it easy to get started with contests.</li>
+  <li><a href="https://codeforces.com/contests">Codeforces</a> and <a href="https://www.codechef.com/contests">CodeChef</a> : With basic build up knowledge and confidence from above encounter, let’s go ahead with BigE.</li>
+</ol>
+
+<h2 id="renown-competitive-challenges">Renown competitive Challenges:</h2>
+
+<ul>
+  <li>ACM ICPC (<a href="https://icpc.global/">link</a>) : Also know as Olympics of Competitive Programming. Only for students.</li>
+  <li>Google CodeJam (<a href="https://codingcompetitions.withgoogle.com/codejam">link</a>) : Popular Coding competition by Google.</li>
+  <li>Facebook HackerCup (<a href="https://www.facebook.com/codingcompetitions/hacker-cup/">link</a>) : Hacker Cup is Facebook’s annual open programming competition.</li>
+</ul>
+
+<h2 id="useful-material">Useful Material:</h2>
+
+<ul>
+  <li>Clist.by (<a href="https://clist.by/">link</a>) : Used to check ongoing and upcoming contests across all platforms.</li>
+  <li>Petr’s Blog (<a href="https://petr-mitrichev.blogspot.com/">link</a>) : Stay updated with CP community with Petr’s weekly blog.</li>
+  <li>CodeChef Editorial (<a href="https://discuss.codechef.com/c/editorial/">link</a>) : After the end of any competition, checkout editorial to expand your knowledge.</li>
+  <li>Codeforces Blogs (<a href="https://codeforces.com/blog/entry/57282">link</a>) : Codeforces blogs are widely grown and useful for CP community.</li>
+  <li>Erricto’s Youtube (<a href="https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg">link</a>) : Youtube channel of current top contributor on Codeforces as per today.</li>
+</ul>
+
+<h2 id="connecting-dots">Connecting Dots</h2>
+
+<p>In field of CP, many times problems offers a new approach to solve somethings. Let’s call these tricks. When a new problems comes, you can use your previous known tricks to solve it or you can learn a trick from this new problem. It’s a win-win. So, don’t loose hope when you can’t solve a problem. It just means you are learning somethings new(seriously).</p>
+
+:ET

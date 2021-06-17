@@ -1,0 +1,35 @@
+I"ï<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://null-sys.github.io"</span><span class="nt">&gt;</span>My blog<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>If you wrote any piece of html code, you must have seen an anchor tag <code class="language-plaintext highlighter-rouge">&lt;a&gt;</code>. This is used to link one webpage to another. One of the versatile tags in HTML.
+Everything is right unless you want to open the link page in anthor tab.</p>
+
+<h2 id="problem-">Problem :</h2>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://null-sys.github.io"</span> <span class="na">target=</span><span class="s">"_blank"</span><span class="nt">&gt;</span>My blog<span class="nt">&lt;/a&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>This is a basic solution you will get on a google search. If you are a beginner, you might use it and move on. But there is a big security risk here. See the target page of anchor tag is connected to previous page.</p>
+
+<p>Say we are moving from <code class="language-plaintext highlighter-rouge">my-blog.html</code> -&gt; <code class="language-plaintext highlighter-rouge">hacker.html</code> page. If we use just <code class="language-plaintext highlighter-rouge">taget="_blank"</code> attribute , once the user clicks for <code class="language-plaintext highlighter-rouge">hacker.html</code>. <code class="language-plaintext highlighter-rouge">hacker.html</code> gains access over <code class="language-plaintext highlighter-rouge">my-blog.html</code>â€™s window object.</p>
+
+<p>In simple words, <code class="language-plaintext highlighter-rouge">hacker.html</code> controls what <code class="language-plaintext highlighter-rouge">my-blog.html</code> shows once it is clicked. I found an interactive explaination over <a href="https://mathiasbynens.github.io/rel-noopener/">mathiasbynens</a>.</p>
+
+<h2 id="solution-">Solution :</h2>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div&gt;</span>
+  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"https://null-sys.github.io"</span> <span class="na">target=</span><span class="s">"_blank"</span> <span class="na">rel=</span><span class="s">"noopener"</span>
+    <span class="nt">&gt;</span>My blog<span class="nt">&lt;/a</span>
+  <span class="nt">&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<p>To improve security, add <code class="language-plaintext highlighter-rouge">rel="noopener"</code> attribute along with <code class="language-plaintext highlighter-rouge">taget="_blank"</code>. This will save you from getting your window hijacked.</p>
+
+<p><code class="language-plaintext highlighter-rouge">taget="_blank"</code> can also irritate user. To understand more about how and when to use it, visit <a href="https://css-tricks.com/use-target_blank/">this page</a>.</p>
+
+:ET
