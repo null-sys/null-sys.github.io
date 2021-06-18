@@ -1,19 +1,19 @@
 # Site settings
-title: 'Gaurav Singh'
-email: 'gaurav88point@gmail.com'
-description: 'A dark blog theme for Jekyll.'
-baseurl: ''
-url: 'http://null-sys.github.io/'
-title_description: 'Senior at National Institute of Technology Andhra Pradesh, pursuing Bachelor of Technology in Computer Science and Engineering.<br/> Interested in `Computer Vision`, `Machine Learning` and `Cloud Computing`<br/>Prefer MERN Stack for App Development '
-title_image: '/assets/null-sys.png'
-google_analytics: 'UA-20365477-4'
+title: "Gaurav Singh"
+email: "gaurav88point@gmail.com"
+description: "A dark blog theme for Jekyll."
+baseurl: ""
+url: "http://null-sys.github.io/"
+title_description: "Senior at National Institute of Technology Andhra Pradesh, pursuing Bachelor of Technology in Computer Science and Engineering.<br/> Interested in `Computer Vision`, `Machine Learning` and `Cloud Computing`<br/>Prefer MERN Stack for App Development "
+title_image: "/assets/null-sys.png"
+google_analytics: "UA-20365477-4"
 disqus_account: null-sys
 github_repository: https://github.com/null-sys
 addthis_id: ra-513c6fa83da6ec67
 post_limit: 5
 
 # Social usernames/URLs
-twitter_username: Gaurav86292287
+twitter_username: null_sys
 github_username: null-sys
 instagram_username: untagged.sparrow
 reddit_username:
