@@ -1,0 +1,57 @@
+I"�
+<h2 id="introduction">Introduction</h2>
+
+<p>I am compressing database design and development into one phase,since after designing database, implementation is quite easy due to GUI based interfaces. I will be using following tools</p>
+
+<ol>
+  <li><a href="https://app.diagrams.net/">draw.io</a> for ER Diagrams</li>
+  <li><a href="https://www.postgresql.org/download/">Postgresql</a> with pgAdmin4 as Database</li>
+</ol>
+
+<h2 id="how-do-we-perform-requirment-analysis">How do we perform requirment analysis?</h2>
+
+<p>There are lot of methods to do requirment analysis but mostly <a href="https://app.diagrams.net/">User stories</a> is the one being followed in <a href="https://www.postgresql.org/download/">agile</a> projects. It simply goes in a hierarichal faishon like this -</p>
+
+<p><img src="/assets/images/user-story.jpg" alt="Epic archetecture" /></p>
+
+<p>There will be many epics and then each epic will be broken into user stories. Then each user stories will be broken into tasks and then we complete these tasks. But epics and user stories help us understand the user requirment from the application.</p>
+
+<h2 id="blaze-covid---a-jouranl">Blaze Covid - A jouranl</h2>
+
+<p>Let’s start with what user needs.</p>
+
+<ul>
+  <li>
+    <p>Epic 1 : User login and registration with entry creation</p>
+
+    <ul>
+      <li>User Story : As a user I can Login into the application</li>
+      <li>User Story : As a user I can Register to the application</li>
+      <li>User Story : As a user I can enter my vitals</li>
+      <li>User Story : As a user I can enter my thoughts and feelings as blog
+<br /><br /></li>
+    </ul>
+  </li>
+  <li>
+    <p>Epic 2 : User can view and share his entry</p>
+    <ul>
+      <li>User Story : As a user I can see all my entries</li>
+      <li>User Story : As a user I can see entries with specific #hashtag</li>
+      <li>User Story : As a user I can share my entry</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Currently my needs are these and I will try to finish it. These may change along the way and so we will repeat the cycle in agile manner. But this is just what we understood from user. We don’t know what are the technical requirements and design of the application. So now we move to the next phase of Design.</p>
+
+<h2 id="back-to-front-development">Back to front development</h2>
+
+<p>I got acustomed to developing database, backend and then frontend. So I will be doing three <a href="https://www.atlassian.com/agile/scrum/sprints">sprints</a>. One for database design, second for backend and the last one for forntend. Though sprints are meant to be done based on functional requirement. I am using here just as introduction.</p>
+
+<ul>
+  <li>Sprint 1 : Database Development</li>
+  <li>Sprint 2 : Backend Development</li>
+  <li>Sprint 3 : Frontend Development</li>
+</ul>
+
+:ET

@@ -1,70 +1,55 @@
 ---
 layout: post
-title: The diverse field of Full Stack Development > FS101
-date: 2021-06-17
+title: Let's make a full stack project FS101[1]
+date: 2021-06-25
 author: Gaurav
-summary: Introduction to Full Stack Development Series
+summary: Full Stack Development 1
 categories: FS
 thumbnail: heart
 tags:
   - Full Stack Development
   - Web Application Development
+  - FS101
 ---
 
-## A quick update about me
+## Introduction
 
-I survived 2020. I have joined Publicis Sapient as Associate Software Engineer Developer. Currently, I am under training and I am learning a lot of things. PJP program by Publicis Sapient gave me a whole new insight into Full Stack Development. I am very grateful to my tutor [Vinod Kumar Kayartaya][1]. With a new level of inspiration, I am starting this FS101 series where I will discuss Full stack development mostly focus on the Browser interface i.e. Web Application development.
+I am going under training in Publicis Sapient and I have an amazing tutor [Vaibhav Vashishtha][]. I am understanding new and quite a lot of things.
 
-## Full Stack Development
+Even thought we are going to develop a full stack application but this FS101 series is going to act a exploring guide rather than a begineers tutorial. I will cover design process and code development but you have to create setups and learn every new word comes across you.
 
-Full Stack Developments involves end-to-end delivery of product from understanding user needs to working application deployment. Most Campus Hire jobs focus full stack development. It is obvious to conclude that you need one full stack application in your resume to get considered for these roles. How do we start? Before jumping to the project development you need to understand how the whole process with Full Stack Development.
+This is just a bridge between knowing how to code and developing a good full stack project.
 
-## How does Full Stack Development work?
+Before building anything in real world, we need to know what are we building say bridge, building or boundary. So first of all we decide archetecture. Similarly here we are developing a web application. It must have some kind of archetecture. Let's see -
 
-To keep it simple, there are few stages on how a project is developed. These are called **Software Development Cycles**.
+## Client Server Architecture
 
-- `Requirement Analysis`: A user gives you his/her needs, you try to understand them and break them into chunks of features. We will go on a length about this in another blog.
-- `Design`: You know the features by previous stage, now you design the blueprint. There are a lot of blueprint techniques for the development. There are three mainly
-  - [Wireframes][2] for User Interface(UI).
-  - [Unified Modeling Language][3] for modeling the project.
-  - [Entity Relation Diagram][4] for databases.
-- `Development`: Here your programming and framework knowledge will be tested. This is the coding part we jump directly into.
-- `Testing`: There are many types of testing. But two of the most important types are as following
-  - Unit Testing: Done simultaneously with code(Hey, Google Test driver development).
-  - QA Testing: Quality Assurance testing before delivery.
-- `Deployment`: It a different story with cloud services, dockers, and automation tools. As a student, you just need to understand how it is done.
-- `Maintenance`: This stage comes with real life project where your code is not sitting on github, but it is deployed and you need to maintain.
+![Client Server architecture](/assets/images/client_server.jpg)
 
-I know it looks like most of the theory but we will see real applications coming along. The above-mentioned part is just the development cycle. This cycle can be repeated multiple times in a Full Stack Development process giving a new term [Agile Development][6].
+Above image shows a conventional sturucture of most web applications currently developed. In development we follow [Convention over configuration][1]. So you understand what we have on browser is client side and it's know as frontend. Backend is used to control main bussiness logic and whatever is served to client via http.
 
-## So what the _hack_ is Full Stack Development?
+## MVC architecture
 
-Now you know about the Software development cycle. To achieve this cycle there are few tools related to each phase. You need to know them, at least up to the testing phase.
+![MVC architecture](/assets/images/mvc.jpg)
 
-- `Requirement Analysis`: Capturing User Stories with tools like [JIRA][6]. But we can do fine with just drill-down points. It's the process that matters.
-- `Design` [Wireframes][2] (can be done on paper), [Unified Modeling Language][3], [Entity Relation Diagram][4]
-- `Development`: There are many development stacks such as
+You can observe this MVC archetecture as an expanded version of Client Server Archetecture. It definetly goes into details. View is what we present to client i.e. HTML page. Controller basically navigates user HTTP requests to corresponding bussiness logic. e.g www.facbook.com/login gets you to login page. Model is (the object) what carries the data behind backend. Basically it brings data from database and supplies it to View. You will get more clear about it as we go forward in the series.
+That's your model view Controller - [MVC Archetecture][2].
 
-  - MERN - JavaScript - MongoDB - Express - React - Node.js
-  - [Git][7] - Source Code Management
+## What are the options?
 
-- `Testing`: There are few unit testing tools like [junit][8] for java
+I have listed out a few options of programming laguages and frameworks used in development of full stack applications. There are 50+ possible combination, but it doesn't matter more than undestand the core concept of development.
 
-Understand this process and developing using such tools is known as full stack development.
+![options for dev](/assets/images/option_mvc.jpg)
 
-A Full stack project will have the following :
+Thought tech stack depends on application we are building but as industy standard goes I will be using following tech stacks :
 
-1. Frontend
-2. Backend
-3. Database
+- Vue.js/React.js for Frontend
+- RESTful API
+- Java 11 with SpringBoot for Backend
+- Postgressql as SQL database
 
-And just like that, you are a full stack developer. (I assumed you developed one XD).
+If you know some of these, that's great. If you don't, Google tutorials are not that out of reach. I am kind of in between to follow testing along with development but we will see in upcoming blogs. But again remember the process will be same as explained in this [blog][3].
 
-[1]: https://vinod.co/
-[2]: https://balsamiq.com/learn/articles/what-are-wireframes/
-[3]: https://tallyfy.com/uml-diagram/
-[4]: https://beginnersbook.com/2015/04/e-r-model-in-dbms/
-[5]: https://agilemanifesto.org/
-[6]: https://www.atlassian.com/software/jira
-[7]: https://git-scm.com/
-[8]: https://www.tutorialspoint.com/junit/index.htm
+[1]: https://en.wikipedia.org/wiki/Convention_over_configuration
+[2]: https://towardsdatascience.com/everything-you-need-to-know-about-mvc-architecture-3c827930b4c1
+[3]: https://null-sys.github.io/fs/2021/06/17/diverse-field-of-web-app-development/

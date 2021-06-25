@@ -1,0 +1,54 @@
+I"<h2 id="introduction">Introduction</h2>
+
+<p>I am going under training in Publicis Sapient and I have an amazing tutor [Vaibhav Vashishtha][]. I am understanding new and quite a lot of things.</p>
+
+<p>Even thought we are going to develop a full stack application but this FS101 series is going to act a exploring guide rather than a begineers tutorial. I will cover design process and code development but you have to create setups and learn every new word comes across you.</p>
+
+<p>This is just a bridge between knowing how to code and developing a good full stack project.</p>
+
+<p>Before building anything in real world, we need to know what are we building say bridge, building or boundary. So first of all we decide archetecture. Similarly here we are developing a web application. It must have some kind of archetecture. Let’s see -</p>
+
+<h2 id="client-server-architecture">Client Server Architecture</h2>
+
+<p><img src="/assets/images/client_server.jpg" alt="Client Server architecture" /></p>
+
+<p>Above image shows a conventional sturucture of most web applications currently developed. In development we follow <a href="https://en.wikipedia.org/wiki/Convention_over_configuration">Convention over configuration</a>. So you understand what we have on browser is client side and it’s know as frontend. Backend is used to control main bussiness logic and whatever is served to client via http.</p>
+
+<h2 id="mvc-architecture">MVC architecture</h2>
+
+<p><img src="/assets/images/mvc.jpg" alt="MVC architecture" /></p>
+
+<p>You can observe this MVC archetecture as an expanded version of Client Server Archetecture. It definetly goes into details. View is what we present to client i.e. HTML page. Controller basically navigates user HTTP requests to corresponding bussiness logic. e.g www.facbook.com/login gets you to login page. Model is (the object) what carries the data behind backend. Basically it brings data from database and supplies it to View. You will get more clear about it as we go forward in the series.
+That’s your model view Controller - [MVC Archetecture][].</p>
+
+<h2 id="so-what-the-hack-is-full-stack-development">So what the <em>hack</em> is Full Stack Development?</h2>
+
+<p>Now you know about the Software development cycle. To achieve this cycle there are few tools related to each phase. You need to know them, at least up to the testing phase.</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">Requirement Analysis</code>: Capturing User Stories with tools like <a href="https://www.atlassian.com/software/jira">JIRA</a>. But we can do fine with just drill-down points. It’s the process that matters.</li>
+  <li><code class="language-plaintext highlighter-rouge">Design</code> <a href="https://towardsdatascience.com/everything-you-need-to-know-about-mvc-architecture-3c827930b4c1">Wireframes</a> (can be done on paper), <a href="https://tallyfy.com/uml-diagram/">Unified Modeling Language</a>, <a href="https://beginnersbook.com/2015/04/e-r-model-in-dbms/">Entity Relation Diagram</a></li>
+  <li>
+    <p><code class="language-plaintext highlighter-rouge">Development</code>: There are many development stacks such as</p>
+
+    <ul>
+      <li>MERN - JavaScript - MongoDB - Express - React - Node.js</li>
+      <li><a href="https://git-scm.com/">Git</a> - Source Code Management</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">Testing</code>: There are few unit testing tools like <a href="https://www.tutorialspoint.com/junit/index.htm">junit</a> for java</li>
+</ul>
+
+<p>Understand this process and developing using such tools is known as full stack development.</p>
+
+<p>A Full stack project will have the following :</p>
+
+<ol>
+  <li>Frontend</li>
+  <li>Backend</li>
+  <li>Database</li>
+</ol>
+
+<p>And just like that, you are a full stack developer. (I assumed you developed one XD).</p>
+
+:ET

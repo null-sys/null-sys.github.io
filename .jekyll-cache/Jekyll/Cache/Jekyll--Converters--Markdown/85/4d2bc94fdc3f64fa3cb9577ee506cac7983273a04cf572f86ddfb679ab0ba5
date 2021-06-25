@@ -1,0 +1,39 @@
+I"H<h2 id="what-are-we-developing">What are we developing</h2>
+
+<p>My tutor [Vaibhav Vashishtha][] came up with this great idea of a project which is concurrent and useful. He allowed me to use it for the series.</p>
+
+<p>In simple term, the project is to develop a covid journal application where a patient can put his thoughts and vitals. It will be stored and shared.</p>
+
+<p>Before we get started we need a tech savvy name for our application. I am thinking <em>Blaze Covid - A jouranl</em></p>
+
+<h2 id="client-server-architecture">Client Server Architecture</h2>
+
+<p><img src="/assets/images/client_server.jpg" alt="Client Server architecture" /></p>
+
+<p>Above image shows a conventional sturucture of most web applications currently developed. In development we follow <a href="https://en.wikipedia.org/wiki/Convention_over_configuration">Convention over configuration</a>. So you understand what we have on browser is client side and it’s know as frontend. Backend is used to control main bussiness logic and whatever is served to client via http.</p>
+
+<h2 id="mvc-architecture">MVC architecture</h2>
+
+<p><img src="/assets/images/mvc.jpg" alt="MVC architecture" /></p>
+
+<p>You can observe this MVC archetecture as an expanded version of Client Server Archetecture. It definetly goes into details. View is what we present to client i.e. HTML page. Controller basically navigates user HTTP requests to corresponding bussiness logic. e.g www.facbook.com/login gets you to login page. Model is (the object) what carries the data behind backend. Basically it brings data from database and supplies it to View. You will get more clear about it as we go forward in the series.
+That’s your model view Controller - <a href="https://towardsdatascience.com/everything-you-need-to-know-about-mvc-architecture-3c827930b4c1">MVC Archetecture</a>.</p>
+
+<h2 id="what-are-the-options">What are the options?</h2>
+
+<p>I have listed out a few options of programming laguages and frameworks used in development of full stack applications. There are 50+ possible combination, but it doesn’t matter more than undestand the core concept of development.</p>
+
+<p><img src="/assets/images/option_mvc.jpg" alt="options for dev" /></p>
+
+<p>Thought tech stack depends on application we are building but as industy standard goes I will be using following tech stacks :</p>
+
+<ul>
+  <li>Vue.js/React.js for Frontend</li>
+  <li>RESTful API</li>
+  <li>Java 11 with SpringBoot for Backend</li>
+  <li>Postgressql as SQL database</li>
+</ul>
+
+<p>If you know some of these, that’s great. If you don’t, Google tutorials are not that out of reach. I am kind of in between to follow testing along with development but we will see in upcoming blogs. But again remember the process will be same as explained in this <a href="https://null-sys.github.io/fs/2021/06/17/diverse-field-of-web-app-development/">blog</a>.</p>
+
+:ET

@@ -1,0 +1,42 @@
+I"�<h2 id="what-are-we-developing">What are we developing?</h2>
+
+<p>My tutor [Vaibhav Vashishtha][] came up with this great idea of a project which is concurrent and useful. He allowed me to use it for this series.</p>
+
+<p>In simple term, the project is to develop a covid journal application where a patient can put his thoughts and vitals. It will be stored and shared.</p>
+
+<p>Before we get started we need a tech savvy name for our application. I am thinking <em>Blaze Covid - A jouranl</em>. Now let’s understand how to do a requirement analysis.</p>
+
+<h2 id="how-do-we-perform-requirment-analysis">How do we perform requirment analysis?</h2>
+
+<p>There are lot of methods to do requirment analysis but mostly <a href="https://www.atlassian.com/agile/project-management/user-stories">User stories</a> is the one being followed in <a href="https://www.atlassian.com/agile/manifesto">agile</a> projects. It simply goes in a hierarichal faishon like this -</p>
+
+<p><img src="/assets/images/user-story.jpg" alt="Epic archetecture" /></p>
+
+<p>There will be many epics and then each epic will be broken into user stories. Then each user stories will be broken into tasks and then we complete these tasks. But epics and user stories help us understand the user requirment from the application.</p>
+
+<h2 id="blaze-covid---a-jouranl">Blaze Covid - A jouranl</h2>
+
+<p>Let’s start with what user needs.</p>
+
+<ol>
+  <li>Epic : User login and registration with entry creation</li>
+</ol>
+
+<ul>
+  <li>As a user I can Login into the application</li>
+  <li>As a user I can Register to the application</li>
+  <li>As a user I can enter my vitals</li>
+  <li>As a user I can enter my thoughts and feelings as blog</li>
+</ul>
+
+<ol>
+  <li>Epic : User can view and share his entry</li>
+</ol>
+
+<ul>
+  <li>As a user I can see all my entry</li>
+  <li>As a user I can see entry with specific #hashtag</li>
+  <li>As a user I can share my entry</li>
+</ul>
+
+:ET

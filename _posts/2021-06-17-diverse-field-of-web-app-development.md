@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The diverse field of Full Stack Development > FS101
+title: The diverse field of Full Stack Development FS101[0]
 date: 2021-06-17
 author: Gaurav
 summary: Introduction to Full Stack Development Series
