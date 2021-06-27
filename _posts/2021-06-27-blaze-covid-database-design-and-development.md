@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Database Design and Development FS101[3]
-date: 2021-06-26
+date: 2021-06-27
 author: Gaurav
-summary: Full Stack Development 2
+summary: Full Stack Development 3
 categories: FS
 thumbnail: heart
 tags:
