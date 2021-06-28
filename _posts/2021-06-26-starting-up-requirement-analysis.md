@@ -16,7 +16,7 @@ tags:
 
 ## What are we developing?
 
-My tutor [Vaibhav Vashishtha][] came up with this great idea of a project which is concurrent and useful. He allowed me to use it for this series.
+My tutor [Vaibhav Vashishtha][4] came up with this great idea of a project which is concurrent and useful. He allowed me to use it for this series.
 
 In simple term, the project is to develop a covid journal application where a patient can put his thoughts and vitals. It will be stored and shared.
 
@@ -60,3 +60,4 @@ I got acustomed to developing database, backend and then frontend. So I will be 
 [1]: https://www.atlassian.com/agile/project-management/user-stories
 [2]: https://www.atlassian.com/agile/manifesto
 [3]: https://www.atlassian.com/agile/scrum/sprints
+[4]: https://www.linkedin.com/in/vvashishtha/

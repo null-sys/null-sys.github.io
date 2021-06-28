@@ -14,7 +14,7 @@ tags:
 
 ## Introduction
 
-I am going under training in Publicis Sapient and I have an amazing tutor [Vaibhav Vashishtha][]. I am understanding new and quite a lot of things.
+I am going under training in Publicis Sapient and I have an amazing tutor [Vaibhav Vashishtha][4]. I am understanding new and quite a lot of things.
 
 Even thought we are going to develop a full stack application but this FS101 series is going to act a exploring guide rather than a begineers tutorial. I will cover design process and code development but you have to create setups and learn every new word comes across you.
 
@@ -53,3 +53,4 @@ If you know some of these, that's great. If you don't, Google tutorials are not 
 [1]: https://en.wikipedia.org/wiki/Convention_over_configuration
 [2]: https://towardsdatascience.com/everything-you-need-to-know-about-mvc-architecture-3c827930b4c1
 [3]: https://null-sys.github.io/fs/2021/06/17/diverse-field-of-web-app-development/
+[4]: https://www.linkedin.com/in/vvashishtha/
