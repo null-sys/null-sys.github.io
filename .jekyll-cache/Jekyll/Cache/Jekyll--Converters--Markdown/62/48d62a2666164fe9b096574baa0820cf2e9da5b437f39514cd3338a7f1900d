@@ -1,4 +1,5 @@
-I"�<h2 id="introduction">Introduction</h2>
+I"
+<h2 id="introduction">Introduction</h2>
 
 <p>I am going under training in Publicis Sapient and I have an amazing tutor <a href="https://www.linkedin.com/in/vvashishtha/">Vaibhav Vashishtha</a>. I am understanding new and quite a lot of things.</p>
 
@@ -23,19 +24,19 @@ That’s your model view Controller - <a href="https://towardsdatascience.com/ev
 
 <h2 id="what-are-the-options">What are the options?</h2>
 
-<p>I have listed out a few options of programming languages and frameworks used in the development of full stack applications. There are 50+ possible combinations, but it doesn’t matter more than undestanding the core concept of development.</p>
+<p>I have listed out a few options of programming languages and frameworks used in the development of full stack applications. There are 50+ possible combinations, but it doesn’t matter more than understanding the core concept of development.</p>
 
 <p><img src="/assets/images/option_mvc.jpg" alt="options for dev" /></p>
 
-<p>Thought tech stack depends on application we are building but as industy standard goes I will be using following tech stacks :</p>
+<p>Thought tech stack depends on the application we are building but as industry-standard goes, I will be using the following tech stacks :</p>
 
 <ul>
   <li>Vue.js/React.js for Frontend</li>
   <li>RESTful API</li>
   <li>Java 11 with SpringBoot for Backend</li>
-  <li>Postgressql as SQL database</li>
+  <li>PostgreSQL as SQL database</li>
 </ul>
 
-<p>If you know some of these, that’s great. If you don’t, Google tutorials are not that out of reach. I am kind of in between to follow testing along with development but we will see in upcoming blogs. But again remember the process will be same as explained in this <a href="https://null-sys.github.io/fs/2021/06/17/diverse-field-of-web-app-development/">blog</a>.</p>
+<p>If you know some of these, that’s great. If you don’t, Google tutorials are not that out of reach. I am kind of in-between to follow testing along with development but we will see in upcoming blogs. But again remember the process will be the same as explained in this <a href="https://null-sys.github.io/fs/2021/06/17/diverse-field-of-web-app-development/">blog</a>.</p>
 
 :ET

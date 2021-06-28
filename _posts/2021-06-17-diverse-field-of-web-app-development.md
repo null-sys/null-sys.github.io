@@ -4,7 +4,7 @@ title: The diverse field of Full Stack Development FS101[0]
 date: 2021-06-17
 author: Gaurav
 summary: Introduction to Full Stack Development Series
-categories: FS
+categories: FS101
 thumbnail: heart
 tags:
   - Full Stack Development
@@ -13,7 +13,7 @@ tags:
 
 ## A quick update about me
 
-I survived 2020. I have joined Publicis Sapient as Associate Software Engineer Developer. Currently, I am under training and I am learning a lot of things. PJP program by Publicis Sapient gave me a whole new insight into Full Stack Development. I am very grateful to my tutor [Vinod Kumar Kayartaya][1]. With a new level of inspiration, I am starting this FS101 series where I will discuss Full stack development mostly focus on the Browser interface i.e. Web Application development.
+I survived 2020. I have joined Publicis Sapient as Associate Software Engineer Developer. Currently, I am under training and I am learning a lot of things. PJP program by Publicis Sapient gave me a whole new insight into Full Stack Development. I am very grateful to my tutor [Vinod Kumar Kayartaya][1] and [Vaibhav Vashishtha][4]. With a new level of inspiration, I am starting this FS101 series where I will discuss Full stack development mostly focus on the Browser interface i.e. Web Application development.
 
 ## Full Stack Development
 
@@ -68,3 +68,4 @@ And just like that, you are a full stack developer. (I assumed you developed one
 [6]: https://www.atlassian.com/software/jira
 [7]: https://git-scm.com/
 [8]: https://www.tutorialspoint.com/junit/index.htm
+[9]: https://www.linkedin.com/in/vvashishtha/

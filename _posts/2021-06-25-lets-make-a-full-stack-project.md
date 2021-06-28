@@ -4,7 +4,7 @@ title: Let's make a full stack project FS101[1]
 date: 2021-06-25
 author: Gaurav
 summary: Full Stack Development 1
-categories: FS
+categories: FS101
 thumbnail: heart
 tags:
   - Full Stack Development
@@ -37,7 +37,7 @@ That's your model view Controller - [MVC Architecture][2].
 
 ## What are the options?
 
-I have listed out a few options of programming languages and frameworks used in the development of full stack applications. There are 50+ possible combinations, but it doesn't matter more than undestanding the core concept of development.
+I have listed out a few options of programming languages and frameworks used in the development of full stack applications. There are 50+ possible combinations, but it doesn't matter more than understanding the core concept of development.
 
 ![options for dev](/assets/images/option_mvc.jpg)
 
